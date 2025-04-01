@@ -1,6 +1,6 @@
 ## Data Collection of All❤️‍🔥 (Sample Scripts)  
 
-### Note🔥:   
+### 1.Note🔥:   
 
 #### The scripts uploaded in this repository are partial components of a larger project and are provided **❗️for learning and reference purposes only❗️**.   
 
@@ -8,9 +8,11 @@
 
 #### The core trading models and strategy logic are private and not included in this repository.  
 
-### 👀 Overview of Uploaded Files  
+### 👀 2.Overview of Uploaded Files    
+#### Data_collection_ documents:  
 
-#### `1M_Realtime_BTC_Futures_data.py`: Monitors Binance BTCUSDT futures 1-minute K-line data and stores it in a database in real time.   
+#### `1M_Realtime_BTC_Futures_data.py`: Monitors Binance BTCUSDT futures 1-minute K-line data and stores it in a database in real time.    
+#### Data_check_ documents:  
 
 #### `return_newest_kline_data(realtime).py`: Returns the latest K-line data via real-time API.    
 
@@ -19,7 +21,7 @@
 #### `RealtimedataCheck_specificdata.py`: Fetches specific K-line data by timestamp for debugging and validation.  
 
 
-### 👾Environment Requirements  
+### 👾3.Environment Requirements  
 
 #### Python 3.10 or higher  
 
@@ -27,7 +29,7 @@
 
 #### Proper PostgreSQL database configuration (local or remote)
 
-### ⚠️Security Notice  
+### ⚠️4.Security Notice  
 
 #### All sensitive data such as API keys and database credentials are **not included** in this repository.  
 

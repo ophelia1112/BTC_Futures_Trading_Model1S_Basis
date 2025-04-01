@@ -1,0 +1,38 @@
+CREATE TABLE IF NOT EXISTS realtime_btc_futures_1mdata (
+    symbol TEXT,
+    open_time BIGINT PRIMARY KEY,
+    open_timestamp TIMESTAMPTZ,
+    close_time BIGINT,
+    close_timestamp TIMESTAMPTZ,
+    open_price NUMERIC,
+    close_price NUMERIC,
+    high_price NUMERIC,
+    low_price NUMERIC,
+    volume NUMERIC,
+    number_of_trades INTEGER,
+    is_closed BOOLEAN,
+    quote_asset_volume NUMERIC,
+    taker_buy_base_volume NUMERIC,
+    taker_buy_quote_volume NUMERIC,
+    EMA_10 NUMERIC,
+    EMA_20 NUMERIC,
+    SMA_10 NUMERIC,
+    SMA_50 NUMERIC,
+    MACD NUMERIC,
+    MACD_signal NUMERIC,
+    MACD_hist NUMERIC,
+    BB_upper NUMERIC,
+    BB_middle NUMERIC,
+    BB_lower NUMERIC,
+    RSI_14 NUMERIC,
+    K NUMERIC,
+    D NUMERIC,
+    J NUMERIC,
+    CCI_14 NUMERIC,
+    OBV NUMERIC,
+    VWAP NUMERIC,
+    ATR_14 NUMERIC
+);
+
+
+

@@ -22,7 +22,9 @@
 
 #### original_data_to_check(realtime).py: Retrieves and prints one complete historical K-line data for verification.  
 
-#### RealtimedataCheck_specificdata.py: Fetches specific K-line data by timestamp for debugging and validation.    
+#### RealtimedataCheck_specificdata.py: Fetches specific K-line data by timestamp for debugging and validation. 
+
+#### Historicaldata_check_specificdata.py: Choose specific time data and check if the target data in the database matches.
 
 ### (3).PostgreSQL_Tables:  
 

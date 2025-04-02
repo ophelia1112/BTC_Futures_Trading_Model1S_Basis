@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS historical_btc_futures_1mdata (
+CREATE TABLE IF NOT EXISTS Historical_BTC_Futures_1mdata (
     symbol TEXT NOT NULL,
 
     open_time BIGINT PRIMARY KEY,

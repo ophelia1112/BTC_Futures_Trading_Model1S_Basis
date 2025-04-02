@@ -26,6 +26,8 @@
 
 #### Historicaldata_check_specificdata.py: Choose specific time data and check if the target data in the database matches.
 
+#### Realtime/Historical_dataCheck_allbasicdata.py: Check data in a special period of your collection.
+
 ### (3).PostgreSQL_Tables:  
 
 #### realtime_btc_futures_1mdata.sql: PostgreSQL table for BTC realtime 1m klines data collection.  

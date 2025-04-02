@@ -24,9 +24,9 @@
 
 ### (3).PostgreSQL_Tables:  
 
-#### Realtime_BTC_Futures_1mdata.sql: PostgreSQL table for BTC realtime 1m klines data collection.  
+#### realtime_btc_futures_1mdata.sql: PostgreSQL table for BTC realtime 1m klines data collection.  
 
-#### Historical_BTC_Futures_1mdata.sql: PostgreSQL table for BTC historical 1m klines data collection.
+#### historical_btc_futures_1mdata.sql: PostgreSQL table for BTC historical 1m klines data collection.
 
 
 ### 3.Environment Requirements👾: 

@@ -1,0 +1,46 @@
+CREATE TABLE IF NOT EXISTS realtime_btc_futures_5mdata (
+    symbol TEXT,
+
+    open_time BIGINT PRIMARY KEY,
+    open_timestamp TIMESTAMP WITH TIME ZONE,
+
+    close_time BIGINT,
+    close_timestamp TIMESTAMP WITH TIME ZONE,
+
+    open_price DOUBLE PRECISION,
+    close_price DOUBLE PRECISION,
+    high_price DOUBLE PRECISION,
+    low_price DOUBLE PRECISION,
+
+    volume DOUBLE PRECISION,
+    number_of_trades INTEGER,
+    is_closed BOOLEAN,
+    quote_asset_volume DOUBLE PRECISION,
+
+    taker_buy_base_volume DOUBLE PRECISION,
+    taker_buy_quote_volume DOUBLE PRECISION,
+
+    EMA_10 DOUBLE PRECISION,
+    EMA_20 DOUBLE PRECISION,
+    SMA_10 DOUBLE PRECISION,
+    SMA_50 DOUBLE PRECISION,
+
+    MACD DOUBLE PRECISION,
+    MACD_signal DOUBLE PRECISION,
+    MACD_hist DOUBLE PRECISION,
+
+    BB_upper DOUBLE PRECISION,
+    BB_middle DOUBLE PRECISION,
+    BB_lower DOUBLE PRECISION,
+
+    RSI_14 DOUBLE PRECISION,
+
+    K DOUBLE PRECISION,
+    D DOUBLE PRECISION,
+    J DOUBLE PRECISION,
+    CCI_14 DOUBLE PRECISION,
+
+    OBV DOUBLE PRECISION,
+    VWAP DOUBLE PRECISION,
+    ATR_14 DOUBLE PRECISION
+);

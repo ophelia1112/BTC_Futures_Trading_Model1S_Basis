@@ -12,9 +12,13 @@
 
 ### (1).Data_collection_ documents:  
 
-#### 1M_Realtime_BTC_Futures_data.py: Monitors Binance BTCUSDT futures 1-minute K-line data and stores it in a database in real time. 
+#### 1M_Realtime_BTC_Futures_data.py: Monitor Binance BTCUSDT futures 1-minute K-line realtime data and stores them in the database. 
 
 #### 1M_Historical_BTC_Futures_data.py: Collect Binance BTCUSDT futures 1-minute K-line of specific period.
+
+#### 5M_Historical_BTC_Futures_data.py: Collect Binance BTCUSDT futures 5-minute K-line of specific period.
+
+#### 5M_Realtime_BTC_Futures_data.py: Monitor Binance BTCUSDT futures 5-minute K-line realtime data and store them in the database.
 
 ### (2).Data_check_ documents:  
 

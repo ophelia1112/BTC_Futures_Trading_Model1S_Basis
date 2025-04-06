@@ -1,4 +1,4 @@
-## Data Collection of All❤️‍🔥 (Sample Scripts)  
+## Data Collection of All❤️‍🔥 
 
 ### 1.Note🔥:   
 
